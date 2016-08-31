@@ -64,8 +64,8 @@ $(document).ready(function () {
     revealScroll("#thumb4", "bounceInLeft", "2s", "0.7s");
     revealScroll("#thumb5", "bounceInUp", "2s", "0.7s");
     revealScroll("#thumb6", "bounceInRight", "2s", "0.7s");
-    revealScroll("#contact", "slideInLeft", "1s", "0.5s");
-    revealScroll("#footer", "slideInRight", "1s", "0.5s");
+    revealScroll("#contact", "zoomIn", "1s", "0.5s");
+    revealScroll("#footer", "zoomIn", "1s", "0.5s");
 
     //Add hover effect.
     function hoverEffect(element, onEnter, onLeave, remove) {
