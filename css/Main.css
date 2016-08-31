@@ -1,0 +1,366 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+@media(max-width:700px) {
+    h1 {
+        font-size: 6vw !important;
+    }
+    h2 {
+        font-size: 5.0vw !important;
+    }
+    h3 {
+        font-size: 4.0vw !important;
+    }
+    h4 {
+        font-size: 3.4vw !important;
+    }
+    .header-btn {
+        padding-left: 0.2vw !important;
+        padding-right: 0.2vw !important;
+        padding: 2vw !important;
+        height: 8.0vw !important;
+        width: 50.0vw !important;
+        font-size: 2.7vw !important;
+    }
+    .social-btn {
+        padding-left: 0.1vw !important;
+        padding-right: 0.1vw !important;
+        margin-left: 0.1vw !important;
+        margin-right: 0.1vw !important;
+        margin-bottom: 0.1vw !important;
+        width: 50.0vw !important;
+        font-size: 2.0vw !important;
+    }
+    #pic img {
+        width: 40vw !important;
+    }
+}
+
+
+/* Main HTML Elements*/
+
+body {
+    background-image: url(../images/wood.jpg);
+    background-position: center;
+    background-size: auto;
+    text-align: center;
+    font-size: 2.0vw;
+    font-family: Quicksand;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 211, 127, 0.28);
+    color: black;
+}
+
+h1 {
+    font-size: 6.0vw;
+    margin: 0px;
+    text-shadow: 2px 5px 3px rgb(0, 0, 0);
+    color: white;
+}
+
+h2 {
+    font-size: 5.0vw;
+    text-shadow: 3px 2px 7px rgb(38, 38, 38);
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 3.0vw;
+}
+
+h4 {
+    font-size: 2.4vw;
+}
+
+menu {
+    padding-top: 3px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-bottom: 3px;
+    margin-top: 0px;
+    z-index: 20;
+    position: relative;
+}
+
+
+/*All Classes*/
+
+.shadow-up {
+    box-shadow: 0px -5px 7px #2a2a2a;
+}
+
+.shadow-down {
+    box-shadow: 0px 5px 7px #2a2a2a;
+}
+
+.content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.caption {
+    font-size: 2.5vw;
+}
+
+.thumbnail {
+    box-shadow: 3px 10px 10px #2a2a2a;
+}
+
+.btn {
+    border-color: rgba(254, 254, 255, 0.59);
+    color: white;
+}
+
+.slim-btn {
+    height: 28px;
+    font-size: 1vw;
+    padding: 2px;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-bottom: 0vw;
+    width: 25.0vw;
+    max-width: 25.0vw;
+}
+
+.header-btn {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-bottom: 0vw;
+    padding: 0.1vw;
+    height: 2.5vw;
+    width: 25.0vw;
+    max-width: 25.0vw;
+    font-size: 1.7vw;
+}
+
+.header-btn:hover {
+    background: linear-gradient(rgba(221, 161, 247, 0.63), rgba(157, 98, 203, 0.39));
+    box-shadow: 0px 0px 5px #2a2a2a;
+    color: white;
+}
+
+.social-btn {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-bottom: 0.5vw;
+    width: auto;
+    max-width: 20.0vw;
+    font-size: 1.5vw;
+}
+
+.social-btn:hover {
+    background: linear-gradient(rgba(153, 124, 248, 0.28), rgba(49, 57, 157, 0.28));
+    box-shadow: 0px 0px 5px #2a2a2a;
+    color: white;
+}
+
+.thumbnail {
+    background: linear-gradient(rgba(95, 218, 247, 0.5), rgba(219, 218, 247, 0.5));
+    border-color: rgba(191, 110, 0, 0);
+}
+
+.thumbnail img {
+    width: 200vw;
+}
+
+.caption {
+    font-size: 1.5vw;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #000000;
+    font-size: 17px;
+}
+
+.form-control {
+    background-color: rgba(255, 211, 127, 0.28);
+    border-style: inset;
+}
+
+.form-control:focus {
+    border-width: 2px;
+    border-color: rgba(255, 177, 0, 0.81);
+}
+
+.hid {
+    visibility: hidden;
+}
+
+.header {
+    background-color: rgba(157, 98, 203, 0.87);
+    opacity: 0.7;
+}
+
+
+/*All ID's*/
+
+#header {
+    margin-left: -15px;
+    margin-right: -15px;
+    z-index: 10;
+    position: relative;
+}
+
+#about {
+    background-color: rgba(94, 201, 135, 0.7);
+    color: #158600;
+    padding-bottom: 50px;
+    z-index: 1;
+    position: relative;
+}
+
+#portfolio {
+    background-color: rgba(94, 139, 201, 0.7);
+    color: rgb(71, 52, 217);
+    z-index: 3;
+    position: relative;
+}
+
+#contact {
+    background-color: rgba(209, 139, 43, 0.4);
+    z-index: 4;
+    position: relative;
+}
+
+#footer {
+    background-color: rgba(46, 27, 195, 0.7);
+    color: white;
+    z-index: 5;
+    position: relative;
+}
+
+#pic img {
+    box-shadow: 0px 10px 10px #2a2a2a;
+}
+
+
+/*Animation Sequential Delay*/
+
+#header,
+#menu {
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-delay: 0s;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-delay: 0s;
+    overflow: hidden;
+}
+
+#header h1 {
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-delay: 0.1s;
+    overflow: hidden;
+}
+
+#about {
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-delay: 0.7s;
+    overflow: hidden;
+}
+
+menu a {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 0.2s;
+    overflow: hidden;
+}
+
+#about h2 {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1.7s;
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 1.7s;
+    overflow: hidden;
+}
+
+#about h3 {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1.8s;
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 1.8s;
+    overflow: hidden;
+}
+
+#about h4 {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1.9s;
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 1.9s;
+    overflow: hidden;
+}
+
+.bounceInUp {
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-delay: 1.7s;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-delay: 1.7s;
+    overflow: hidden;
+}
+
+.zoom {
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-delay: 0s;
+    -moz-animation-duration: 0.4s;
+    -moz-animation-delay: 0s;
+    overflow: hidden;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    to {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+}
+
+@keyframes zoom {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    to {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+}
+
+.zoom {
+    -webkit-animation-name: zoom;
+    animation-name: zoom;
+}
+
+@-webkit-keyframes zoomDown {
+    from {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes zoomDown {
+    from {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.zoomDown {
+    -webkit-animation-name: zoomDown;
+    animation-name: zoomDown;
+}
