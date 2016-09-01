@@ -159,12 +159,10 @@ menu {
 .thumbnail {
     background: linear-gradient(rgba(95, 218, 247, 0.5), rgba(219, 218, 247, 0.5));
     border-color: rgba(191, 110, 0, 0);
-    margin: 10px 10px 10px 10px;
 }
 
 .thumbnail img {
     width: 200vw;
-    height: 170vw;
 }
 
 .caption {
